@@ -1,7 +1,7 @@
 {
-  "name": "bojan-bosnic",
+  "name": "food-recipe-app",
   "version": "1.0.0",
-  "description": "This is my personal portfolio",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server  --config webpack.dev.js --open chrome --watch",

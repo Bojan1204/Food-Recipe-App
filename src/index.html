@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Personal | Portfolio</title>
+    <title>Food Recipe App</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,6 +10,7 @@
     <link rel="preload" as="font" href="assets/fonts/Raleway-Black.woff" type="font/woff" crossorigin="anonymous">
     <link rel="preload" as="font" href="assets/fonts/Raleway-Medium.woff" type="font/woff" crossorigin="anonymous">
     <link rel="preload" as="font" href="assets/fonts/Calibri.woff" type="font/woff" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- <meta
       name="description"
       content="This is my personal Portfolio"
@@ -22,10 +23,65 @@
 
   <body>
 
-    <div class="proba">Hello World</div>
-    <footer class="copyright">
-      <p>© Bojan Bosnic | 2021</p>
-    </footer>
+    <div class = "container">
+      <div class = "meal-wrapper">
+        <div class = "meal-search">
+          <h2 class = "title">Search Your Food:</h2>
+          <div class = "meal-search-box">
+            <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
+            <button type = "submit" class = "search-btn btn" id = "search-btn">
+              <i class = "fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+  
+        <div class = "meal-result">
+          <h2 class = "title">Your Search Results:</h2>
+          <div id= "meal">
+            <!-- meal item -->
+            <!-- <div class = "meal-item">
+
+              <div class = "meal-img">
+                <img src = "./img/food.jpg" alt = "food">
+              </div>
+              <div class = "meal-name">
+                <h3>Potato Chips</h3>
+                <a href = "#" class = "recipe-btn">Get Recipe</a>
+              </div>
+            </div> -->
+            <!-- end of meal item -->
+          </div>
+        </div>
+  
+  
+        <div class = "meal-details">
+          <!-- recipe close btn -->
+          <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+            <i class = "fas fa-times"></i>
+          </button>
+  
+          <!-- meal content -->
+          <div class = "meal-details-content">
+            <!-- <h2 class = "recipe-title">Meals Name Here</h2>
+            <p class = "recipe-category">Category Name</p>
+            <div class = "recipe-instruct">
+              <h3>Instructions:</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad obcaecati magnam, esse numquam nisi ut adipisci in?</p>
+            </div>
+            <div class = "recipe-meal-img">
+              <img src = "./img/food.jpg" alt = "">
+            </div>
+            <div class = "recipe-link">
+              <a href = "#" target = "_blank">Watch Video</a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
 
     <!-- Javascript will be added automatically after build -->
   </body>
