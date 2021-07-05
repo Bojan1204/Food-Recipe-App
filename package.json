@@ -1,7 +1,7 @@
 {
   "name": "food-recipe-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a app who was created in JavaScript, Html and Sass",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server  --config webpack.dev.js --open chrome --watch",

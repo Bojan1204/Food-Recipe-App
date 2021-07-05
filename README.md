@@ -1,14 +1,11 @@
-# Personal | Portfolio
+# food-recipe-app
 ---
 
 ## next steps 
 
-
-Enjoy in my personal portoflio.
-
 ## Table of Contents
 ---
-- [Personal | Portfolio](#Personal | Portfolio)
+- [Food-Recipe-App](#Food-Recipe-App)
 - [Table of Contents](#table-of-contents)
 - [About the Project](#about-the-project)
 - [Status](#status)
@@ -198,7 +195,7 @@ npm install
 
 ## How to Use
 ---
-Open in your favorite code editor folder **Personal | Portfolio** and start editing files in `src` folder.
+Open in your favorite code editor folder **Food-recipe-app** and start editing files in `src` folder.
 If you want to change something in Webpack
 
 ### webpack.config.js
